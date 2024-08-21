@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html> 
+  <head>
+    <title>5C</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="title"></div>
+
+    <p id="description"></p>
+
+    <button type="button" id="btn-edit" class="button">Edit</button>
+
+    <div id="container-add">
+      <div id="container-colors">
+        <button type="button" class="btn-color" id="btn-c-0" style="background-color: Red"></button>
+        <button type="button" class="btn-color" id="btn-c-1" style="background-color: Blue"></button>
+        <button type="button" class="btn-color" id="btn-c-2" style="background-color: Lime"></button>
+        <button type="button" class="btn-color" id="btn-c-3" style="background-color: Cyan"></button>
+        <button type="button" class="btn-color" id="btn-c-4" style="background-color: Green"></button>
+        <button type="button" class="btn-color" id="btn-c-5" style="background-color: Purple"></button>
+        <button type="button" class="btn-color" id="btn-c-6" style="background-color: Orange"></button>
+        <button type="button" class="btn-color" id="btn-c-7" style="background-color: Pink"></button>
+        <button type="button" class="btn-color" id="btn-c-8" style="background-color: Gold"></button>
+        <button type="button" class="btn-color" id="btn-c-9" style="background-color: Indigo"></button>
+      </div>
+      <button type="button" id="btn-add" class="button">+</button>
+      <input type="text" id="input-add">
+    </div>
+
+    <div id="container-submits">
+    </div>
+
+    <div id="wheelOfFortune">
+      <canvas id="wheel" width="500" height="500"></canvas>
+      <div id="spin">SPIN</div>
+    </div>
+
+    <div id="spin-settings">
+      <label>Titel</label>
+      <input class="sinput" id="input-title">
+      <label>Beskrivning</label>
+      <input class="sinput" id="input-desc">
+      <label>Utmatning</label>
+      <input class="sinput" id="input-prompt">
+      <button type="button" class="button" id="btn-save">Spara</button>
+    </div>
+
+    <div id="spin-prompt">
+    </div>
+
+    <div id="spin-result">
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html> 
